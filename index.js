@@ -8,9 +8,7 @@ app.get('/home', (req, res) => {
 })
 
 
-app.listen(PORT, () => {
-  console.log(`Server running at ${PORT}`);
-});
+
 
 // Export the Express API
 module.exports = app
