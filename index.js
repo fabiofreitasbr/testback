@@ -4,7 +4,7 @@ const PORT = 3000;
 
 
 app.get('/', (req, res) => {
-  res.status(200).json('Welcome, your app is working well');
+  res.status(200).json('Olá bem vindo');
 })
 
 
